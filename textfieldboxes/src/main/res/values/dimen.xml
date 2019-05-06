@@ -26,8 +26,8 @@
     <dimen name="counter_text_size">12sp</dimen>
     <dimen name="corner_radius">4dp</dimen>
     <dimen name="label_active_margin_top">8dp</dimen>
-    <dimen name="upper_panel_paddingStart">16dp</dimen>
-    <dimen name="upper_panel_paddingEnd">16dp</dimen>
+    <dimen name="upper_panel_paddingStart">0dp</dimen>
+    <dimen name="upper_panel_paddingEnd">0dp</dimen>
     <dimen name="upper_panel_paddingEnd_small">8dp</dimen>
     <dimen name="upper_panel_paddingBottom">5dp</dimen>
     <dimen name="editTextLayout_padding_bottom">8dp</dimen>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbarStyle="outsideOverlay"
+    android:background="@color/per10white"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -145,14 +146,16 @@
             android:layout_height="wrap_content"
             app:labelText="Password"
             app:hasFocus="true"
+            app:alwaysShowHint="true"
+            app:panelBackgroundColor="@color/per10white"
             app:isResponsiveIconColor="true">
 
             <studio.carbonylgroup.textfieldboxes.ExtendedEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:imeOptions="actionNext"
-                android:inputType="textPassword"
                 android:textSize="18sp"
+                android:hint="Placeholder"
                 android:maxLines="1"
                 android:text="Very very very long password string. Lorem ipsum dolor sit amet" />
 
